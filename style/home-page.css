@@ -1,0 +1,116 @@
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-content__left {
+    width: 50%;
+    position: relative;
+}
+
+.main-content__right {
+    width: 50%;
+    position: relative;
+}
+
+.main-content__left--title h1 {
+    color: #000;
+    font-family: League Gothic;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.main-content__left--title p {
+    width: 80%;
+}
+
+.crl-s {
+    max-width: 100%;
+    position: relative;
+}
+
+.crl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.crl button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.crl-img {
+    max-width: 60%;
+    padding: 50px 0;
+}
+
+.cl-img-disk{
+    position: absolute;
+    top: 0;
+    z-index: -2;
+    right: 50px;
+}
+.cl-img-album {
+    z-index: 1;
+    position: relative;
+    right: 50px;
+}
+
+.main-content__right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.inflis {
+    width: 600px;
+    flex-shrink: 0;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.50);
+    box-shadow: 0px 12px 50px 0px rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(25px);
+}
+
+.inflis__title {
+    color: #000;
+    font-family: League Gothic;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.inflis__paragraph {
+    color: #000;
+    font-family: Montserrat;
+}
+
+.inflis__sub {
+    display: flex;
+    align-items: center;
+    font-family: League Gothic;
+    font-size: 36px;
+    gap: 20px;
+}
+
+.inflis__sub button {
+    cursor: pointer;
+    border: none;
+    font-size: 36px;
+    font-family: League Gothic;
+    padding: 5px 60px;
+    border-radius: 50px;
+    background: #000;
+    color: #fff;
+}
