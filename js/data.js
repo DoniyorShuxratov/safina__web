@@ -1,33 +1,33 @@
-fetch('./data/list.json')
-  .then(response => response.json())
-  .then(data => {
+// fetch('./data/list.json')
 
-    const container = document.querySelector('.main-content__right');
-    
-    data.forEach(item => {
+// .then(response => response.json())
+// .then(data => {
+//   const container = document.querySelector('.main-content__right');
 
-      const inflis = document.createElement('div');
-      inflis.classList.add('inflis');
+//   data.forEach(item => {
 
-      const titleElement = document.createElement('h2');
-      titleElement.classList.add('inflis__title');
-      titleElement.textContent = item.title;
+//     const inflis = document.createElement('div');
+//     inflis.classList.add('inflis');
 
-      const paragraphElement = document.createElement('div');
-      paragraphElement.classList.add('inflis__paragraph');
-      paragraphElement.textContent = item.paragraph;
+//     const titleElement = document.createElement('h2');
+//     titleElement.classList.add('inflis__title');
+//     titleElement.textContent = item.title;
 
-      const subElement = document.createElement('div');
-      subElement.classList.add('inflis__sub');
+//     const paragraphElement = document.createElement('div');
+//     paragraphElement.classList.add('inflis__paragraph');
+//     paragraphElement.textContent = item.paragraph;
 
-      const buttonElement = document.createElement('button');
-      buttonElement.textContent = item.buttonText;
+//     const subElement = document.createElement('div');
+//     subElement.classList.add('inflis__sub');
 
-      subElement.appendChild(buttonElement);
-      inflis.appendChild(titleElement);
-      inflis.appendChild(paragraphElement);
-      inflis.appendChild(subElement);
-      container.appendChild(inflis);
-    });
-  })
-  .catch(error => console.error('Error fetching JSON:', error));
+//     const buttonElement = document.createElement('button');
+//     buttonElement.textContent = item.buttonText;
+
+//     subElement.appendChild(buttonElement);
+//     inflis.appendChild(titleElement);
+//     inflis.appendChild(paragraphElement);
+//     inflis.appendChild(subElement);
+//     container.appendChild(inflis);
+//   });
+// })
+// .catch(error => console.error('Error fetching JSON:', error));

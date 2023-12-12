@@ -41,6 +41,9 @@
     .inflis__title{
         font-size: 32px;
     }
+    .inflis__sub button{
+        font-size: 24px;
+    }
 
     .inflis__paragraph {
         font-size: 16px;
@@ -61,6 +64,15 @@
         height: 70px;
     }
 
+    .img-disk {
+        left: 150px;
+        max-width: 40%;
+    }
+    
+    .slide__navigation {
+        top: 50%;
+    }
+    
     /* 2_page */
 
     .tickets{
