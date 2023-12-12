@@ -1,6 +1,6 @@
 @media only screen and (max-width: 750px) {
     .container{
-        width: 750px!important;
+        width: auto!important;
     }
 
     .main-content {
@@ -14,8 +14,78 @@
     }
   
     .main-content__right{
+        padding: 0 30px;
         width: 100%;
         justify-content: center;
     }
-  
+    .main__registration {
+        justify-content: center;
+        height: 70px;
+    }
+
+    .main__registration button{
+        font-size: 16px;
+        width: 100px;
+        height: 40px;
+    }
+    .bgf-ii {
+        overflow: hidden;
+    }
+    .inflis {
+        width: 100%;
+        padding: 20px;
+        border-radius: 18px;
+        margin-bottom: 80px;
+    }
+
+    .inflis__title{
+        font-size: 32px;
+    }
+
+    .inflis__paragraph {
+        font-size: 16px;
+    }
+
+    .navigation {
+        bottom: 0;
+        width: 100%;
+    }
+
+    .navbar{
+        width: 100%;
+        height: 50px;
+        border-radius: 0;
+    }
+    .navbar__item {
+        width: 70px;
+        height: 70px;
+    }
+
+    /* 2_page */
+
+    .tickets{
+        margin-top: 0;
+        padding-top: 50px;
+    }
+    .tickets__title{
+        padding: 0 10px;
+    }
+    .tickets__list {
+        flex-direction: column;
+        padding: 0 10px;
+    }
+    .packages__title{
+        padding: 0 10px;
+    }
+    .packages__list {
+        flex-direction: column;
+        padding: 0 10px;
+    }
+    .alums__title{
+        padding: 0 10px;
+    }
+    .albums{
+        flex-direction: column;
+        padding: 0 10px;
+    }
 }
