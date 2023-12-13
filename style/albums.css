@@ -5,7 +5,7 @@
 .alums__title h3{
     text-transform: uppercase;
     color: #000;
-    font-family: League Gothic;
+    font-family: 'LG-regular';
     font-size: 72px;
     font-style: normal;
     font-weight: 400;
@@ -64,7 +64,7 @@
 .album__sub h1{
     text-transform: uppercase;
     color: #000;
-    font-family: League Gothic;
+    font-family: 'LG-regular';
     font-size: 28px;
     font-style: normal;
     font-weight: 400;
@@ -74,7 +74,7 @@
 .album__sub span {
     text-transform: uppercase;
     color: #000;
-    font-family: Montserrat;
+    font-family: 'GoogleSans';
     font-size: 22px;
     font-style: normal;
     font-weight: 600;

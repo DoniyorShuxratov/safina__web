@@ -44,6 +44,7 @@ function showSlides() {
         <div class="inflis__paragraph">${currentData.paragraph}</div>
         <div class="inflis__sub">
           <button>${currentData.buttonText}</button>
+          <span>${currentData.price}</span>
         </div>
       </div>
 

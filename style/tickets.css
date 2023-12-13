@@ -12,7 +12,7 @@
 .tickets__title h3{
     color: #000;
     text-transform: uppercase;
-    font-family: League Gothic;
+    font-family: 'LG-regular';
     font-size: 72px ;
     font-style: normal;
     font-weight: 400;
@@ -33,8 +33,21 @@
     padding: 8px 20px;
 }
 
+
+.tick-mn {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
 .ticket {
     display: flex;
     gap: 20px;
+    justify-content: space-between;
     align-items: center;
+}
+
+.ticket span{
+    font-family: 'GoogleSans';
+    font-weight: 600;
 }
