@@ -20,11 +20,11 @@ body {
 
 @font-face {
     font-family: 'LG-regular';
-    src: url(../fonts/LeagueGothic-Regular.ttf);
+    src: url(/fonts/LeagueGothic-Regular.ttf);
 }
 @font-face {
     font-family: 'GoogleSans';
-    src: url(./fonts/GoogleSans-Regular.ttf);
+    src: url(/fonts/GoogleSans-Regular.ttf);
 }
 
 a{
