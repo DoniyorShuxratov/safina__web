@@ -96,8 +96,32 @@
     .alums__title{
         padding: 0 10px;
     }
-    .albums{
-        flex-direction: column;
+    .albums {
         padding: 0 10px;
+        flex-wrap: wrap;
+    }
+
+    .album {
+        flex-basis: calc(50% - 30px); 
+    }
+
+    .album__cover img{
+        max-width: 90%;
+    }
+    .album__sub {
+        margin-bottom: 0;
+    }
+    .album__sub p{
+        font-size: 14px;
+    }
+    .album__sub span {
+        font-size: 16px;
+    }
+
+    .sd-1 {
+        right: 10px;
+    }
+    .sd-2 {
+        left: 20px;
     }
 }
